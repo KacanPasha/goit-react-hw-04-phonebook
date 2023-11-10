@@ -34,6 +34,7 @@ export const ContactForm = ({ onAdd }) => (
 
       <FieldСontainer>
         <BlockLabel>Number</BlockLabel>
+        
         <Field
           name="number"
           validate={value => {
